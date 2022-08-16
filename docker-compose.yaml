@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  hemuwebapp:
+    image: hemupmobiweb:appv1
+    build: .
+    container_name: hemupwebc1
+    ports:
+      - 1467:80
+    restart: always
